@@ -1,0 +1,14 @@
+class Cat {
+
+    constructor(private name: string, private color:string){
+  
+    }
+  
+   meow(){ console.log('meow, my name is: '+ this.name + " , and I'm "+ this.color);}
+  
+    
+  } 
+  
+  let myCat =  new Cat("Mimi", "White");
+  
+  console.log("my Cat", +myCat.meow())
